@@ -111,6 +111,13 @@ footer a:hover {
     border: 2px solid rgb(3, 3, 3);
 }
 
+@media (max-width: 480px) {
+    .splash img {
+        max-width: 60%;
+        margin-left: 2%;
+    }
+}
+
 .splash p {
     border: 1px solid black;
     border-radius: 8px;
